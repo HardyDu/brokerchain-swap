@@ -41,3 +41,7 @@ demo_*.xml
 .env
 .env.*
 !.env.example
+
+# Local contract-analysis metadata
+/contracts/.deps/
+/contracts/.states/
