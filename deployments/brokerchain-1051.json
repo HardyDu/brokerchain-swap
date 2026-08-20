@@ -1,0 +1,24 @@
+{
+  "chainId": 4176,
+  "chainName": "BrokerChain",
+  "deployedAt": "PLACEHOLDER",
+  "factory": "PLACEHOLDER",
+  "router": "PLACEHOLDER",
+  "wbkc": "0xf66338bff6a95a4ce5f7ec688b120f223096acd5",
+  "mockUsdt": "PLACEHOLDER",
+  "pair": {
+    "token0": "PLACEHOLDER",
+    "token1": "PLACEHOLDER",
+    "address": "PLACEHOLDER"
+  },
+  "initialPrice": {
+    "rate": "1 BKC = 100 mUSDT",
+    "liquidityWbkc": "1000",
+    "liquidityMusdt": "100000"
+  },
+  "deployTxHashes": {
+    "mockUsdt": "PLACEHOLDER",
+    "factory": "PLACEHOLDER",
+    "router": "PLACEHOLDER"
+  }
+}

@@ -1,0 +1,43 @@
+# Node
+node_modules/
+
+# Hardhat
+artifacts/
+cache/
+typechain-types/
+
+# Android
+app/build/
+.gradle/
+local.properties
+*.apk
+*.aab
+*.keystore
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ZIP archives
+*.zip
+
+# Local inspection, recordings, and diagnostic output
+.gradle-cache/
+cfr_output/
+classes*.dex
+*.log
+logcat_*.txt
+build_output.txt
+screenrecord_*.txt
+demo_*.png
+demo_*.xml
+
+# Local deployment credentials
+.env
+.env.*
+!.env.example

@@ -1,0 +1,35 @@
+{
+  "network": "BrokerChain test environment",
+  "rpcUrl": "http://127.0.0.1:49282",
+  "rpcReportedChainId": 4176,
+  "walletConfiguredChainId": 1051,
+  "deployer": "0xc9791f2f86a7f11af0c257480765024f002e77b7",
+  "factory": "0xB1185C2A9077cE35572CffABf825DD2DB299A662",
+  "wbkc": "0x4761865CA85000B23DF6fB00D2c4F81aa873513B",
+  "musdt": "0x2881B7eFad41d88F3C244fBB3503dF3E12Bc0B26",
+  "pair": "0x40283F8EccEC16386081B1e4A1E83C5C8939adcb",
+  "routerMiniV2": "0x463ea41fdd04bbd0f821291ab825c472ea6a2ffe",
+  "routerMiniV2DeploymentTx": "0xab975adc351bd6b76ee49e7051dbfe13db25a40c086922c93eb68fc0518f87d2",
+  "routerMiniV2RuntimeBytes": 8015,
+  "evmTimestampUnit": "milliseconds",
+  "routerDeadlineUnit": "Unix seconds",
+  "validation": {
+    "fixedQuotedAbi": {
+      "musdtToWbkcTx": "0x7aca7b555da1fad00c2c7624fd41a9865dcd5d4590407330704f973ef71ed7d0",
+      "musdtToBkcTx": "0xbf753efc25b3c13f36c5730b6ce2b6c384256bf2e5b0dede3a3d02a7bebefc2c",
+      "bkcToMusdtTx": "0x415eb8ec9d4f706b0378d1766bd33af11e9ff21ddf55b964218185a341743e3b"
+    },
+    "walletCompatibleAbi": {
+      "musdtToWbkcTx": "0x427444919c56bc1f708760512d886017abb67640ee120e7b5e94c409639c1a9f",
+      "musdtToBkcTx": "0x88dfe07ea7fc382c96766f2fb82e91b823832ef2289413658a72e797e34a8c4f",
+      "bkcToMusdtTx": "0xdc531d81efc974236f915d4a4a62e284db4b6b61ef9b7c0fc8169a2e38ae7b50"
+    }
+  },
+  "deprecatedFailedRouterMiniV2": [
+    "0xeecb77b7fbae0c5f587cf8191bd116d4eb9c8aa4",
+    "0x3f61c82449e9accc18361840c561477aaef9c607",
+    "0x4d743e23ef417dadf4ecac3ed346c7a6917fa2b9",
+    "0xdd7e8539159a08e9b68e155e131e6773934cee04",
+    "0xde2f3f3715848c74dd6fbf0642bb2f29bb2be365"
+  ]
+}

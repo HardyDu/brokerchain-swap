@@ -1,0 +1,26 @@
+{
+  "network": "BrokerChain test environment",
+  "rpcReportedChainId": 4176,
+  "androidConfiguredChainId": 1051,
+  "deployer": "0xc9791f2f86a7f11af0c257480765024f002e77b7",
+  "factory": "0xB1185C2A9077cE35572CffABf825DD2DB299A662",
+  "wbkc": "0x4761865CA85000B23DF6fB00D2c4F81aa873513B",
+  "musdt": "0x2881B7eFad41d88F3C244fBB3503dF3E12Bc0B26",
+  "pair": "0x40283F8EccEC16386081B1e4A1E83C5C8939adcb",
+  "fixedSwapRouter": "0x463ea41fdd04bbd0f821291ab825c472ea6a2ffe",
+  "liquidityRouter": "0xff44a9fd58f4bcd096b0cbf780580cb6846efd0d",
+  "deploymentTx": "0x20e5dd8c205acb962dd28a833060c6e718333b139c466fdf5d8a163bb036ea0f",
+  "blockNumber": "0x44d13",
+  "gasUsed": "0x6d1a2",
+  "runtimeBytes": 5645,
+  "runtimeHash": "0x3d0e16ff18b343c4a894be08296a6a3e4f9588ee26b612a3a2e7bf56e1fb5f1e",
+  "receiptStatus": "0x1",
+  "verification": {
+    "runtimeCodePresent": true,
+    "factoryImmutableMatches": true,
+    "wbkcImmutableMatches": true,
+    "musdtImmutableMatches": true,
+    "pairImmutableMatches": true,
+    "gatewayEthCallAvailable": false
+  }
+}

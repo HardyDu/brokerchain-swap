@@ -1,0 +1,21 @@
+{
+  "name": "broker-swap-contracts",
+  "version": "1.0.0",
+  "description": "BrokerChain Uniswap V2 fork contracts for BrokerSwap",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "clean": "hardhat clean",
+    "deploy:mini:v2": "node scripts/deploy-mini-v2.js",
+    "deploy:liquidity": "node scripts/deploy-liquidity-router.js",
+    "diagnose:mini:v2": "node scripts/diagnose-mini-v2.js",
+    "validate:mini:v2": "node scripts/validate-mini-v2.js",
+    "swap:mini": "node scripts/send-mini-swap.js",
+    "serve:quote-cache": "node scripts/quote-cache-server.js",
+    "test:quote-cache": "node test/quote-cache-service.test.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.0"
+  }
+}

@@ -1,0 +1,26 @@
+[Unit]
+Description=BrokerSwap read-only quote cache
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=quote-cache
+Group=quote-cache
+WorkingDirectory=/opt/broker-swap-quote-cache
+Environment=NODE_ENV=production
+EnvironmentFile=-/etc/broker-swap-quote-cache.env
+Environment=QUOTE_CACHE_HOST=127.0.0.1
+Environment=QUOTE_CACHE_PORT=8088
+Environment=QUOTE_CACHE_REFRESH_MS=15000
+Environment=QUOTE_CACHE_MAX_AGE_MS=45000
+ExecStart=/usr/bin/node /opt/broker-swap-quote-cache/scripts/quote-cache-server.js
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=full
+
+[Install]
+WantedBy=multi-user.target

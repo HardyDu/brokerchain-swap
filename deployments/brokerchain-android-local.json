@@ -1,0 +1,16 @@
+{
+  "network": "BrokerChain Android Local Test",
+  "rpcUrl": "http://127.0.0.1:42515",
+  "chainId": 1051,
+  "deployer": "0x3a13aeF844a9FE0cbfDfE94B220c9eb69F10E625",
+  "factory": "0x903e5baa9f5e99225a4dca4a200cba5320991e3c",
+  "wbkc": "0x2623d7d7dd39e8361241c9c64c9023d57d00d8a2",
+  "musdt": "0x128306db0c1ff36e3093c08da855329543d69d2d",
+  "pair": "0xe1b2b75a08143abb64d7206ee52b3b3535c64af3",
+  "router": "0x8053E967d53c0d43f78A701d21993436f7414711",
+  "miniRouter": "0x8053E967d53c0d43f78A701d21993436f7414711",
+  "liquidityRouter": "0xB6eeD5BeE6B478b95CF4e69Da306074c246AD9e8",
+  "liquidityRouterRuntimeHash": "0x04184c3614cfaefae491568f2a685b09f265154504f108ee9f4ee3ab86c2fdde",
+  "routerDeploymentTx": "0xbbba5d2b8f287385cdea512815278c3eb677bc6342acac0f98d72f7c4a20132a",
+  "liquidityRouterDeploymentTx": "0x024f0d6519aa072f9588b75f2a59648e93db6385ea0296f5609dcd5eabcba68c"
+}
